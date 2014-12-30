@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-Template-Tiny
 Version:        1.12
-Release:        8%{?dist}
+Release:        8%{?_buildid}%{?dist}
 Summary:        Template Toolkit re-implemented in as little code as possible
 License:        GPL+ or Artistic
 Group:          Development/Libraries
