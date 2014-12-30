@@ -14,6 +14,9 @@ BuildRequires:  perl(Test::More) >= 0.47
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 WARNING: THIS MODULE IS EXPERIMENTAL AND SUBJECT TO CHANGE WITHOUT NOTICE
 Template::Tiny is a re-implementation of a partial subset of the Template 
 Toolkit,  in as few lines of code as possible. It is intended for use in 
